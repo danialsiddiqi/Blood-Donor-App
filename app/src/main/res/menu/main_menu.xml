@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_myfeed"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/sentEmail"
+        android:icon="@drawable/ic_myfeed"
+        android:title="Donors Emailed"/>
+
+    <item
+        android:id="@+id/compatible"
+        android:icon="@drawable/ic_myfeed"
+        android:title="Compatible with me"/>
+
+
+    <item android:title="Blood Group" >
+        <menu>
+            <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/aplus"
+            android:icon="@drawable/ic_myfeed"
+            android:title="A Positive"/>
+        <item
+            android:id="@+id/aminus"
+            android:icon="@drawable/ic_myfeed"
+            android:title="A Negative"/>
+        <item
+            android:id="@+id/bplus"
+            android:icon="@drawable/ic_myfeed"
+            android:title="B Positive"/>
+        <item
+            android:id="@+id/bminus"
+            android:icon="@drawable/ic_myfeed"
+            android:title="B Positive"/>
+        <item
+            android:id="@+id/abplus"
+            android:icon="@drawable/ic_myfeed"
+            android:title="AB Positive"/>
+        <item
+            android:id="@+id/abminus"
+            android:icon="@drawable/ic_myfeed"
+            android:title="AB Negative"/>
+        <item
+            android:id="@+id/oplus"
+            android:icon="@drawable/ic_myfeed"
+            android:title="O Positive"/>
+        <item
+            android:id="@+id/ominus"
+            android:icon="@drawable/ic_myfeed"
+            android:title="O Negative"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Action" >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/ic_myfeed"
+                    android:title="Profile"/>
+                <item
+                    android:id="@+id/notofications"
+                    android:icon="@drawable/ic_myfeed"
+                    android:title="Notifications"/>
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_myfeed"
+                    android:title="Log Out"/>
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Communicate" >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/about"
+                    android:icon="@drawable/ic_myfeed"
+                    android:title="About"/>
+                <item
+                    android:id="@+id/share"
+                    android:icon="@drawable/ic_myfeed"
+                    android:title="Share"/>
+
+            </group>
+        </menu>
+    </item>
+
+
+
+    </menu>
+
+
+
